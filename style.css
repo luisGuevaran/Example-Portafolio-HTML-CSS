@@ -51,20 +51,30 @@ body {
 
 .presentacion__enlaces{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 32px;
+}
+
+.presentacion__enlaces__subtitulos{
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .presentacion__enlaces__link{
-    width: 280px;
-    background-color: #22D4FD;
+    width: 378px;
+    /*background-color: black;*/
+    border:#22D4FD 2px solid;
     text-align: center;
     padding:21.5px 0; /*primer valor vertical, segundo horizontal*/
-    border-radius: 16px; 
+    border-radius: 8px; 
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;/*quita la linea de links*/
-    color:#000000
+    color:#F6F6F6;
     
 }
 a:hover{
